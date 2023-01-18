@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background: grey;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body,
+th {
+  background: black;
+}
+
+h2 {
+  /* margin-bottom: 10px; */
+  margin: 20px 0 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+aside h2 {
+  font-size: 18px;
+}
+
+#container,
+header,
+footer {
+  width: 1000px;
+  padding: 15px;
+  background: #000;
+}
+
+header footer,
+table,
+h2,
+a,
+p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header,
+footer {
+  background: black;
+  color: white;
+}
+
+
+.head {
+  /* display: flex; */
+}
+
+.head .left .menu {
+  display: flex;
+}
+
+.menu div {
+  margin-left: 30px;
+}
+
+.caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+}
+
+.left {}
+
+.logo {}
+
+.menu {}
+
+.right {}
+
+.caption {}
+
+.title {}
+
+.link {}
+
+.filter {
+  display: flex;
+}
+
+.select {}
+
+.filter {}
+
+.filter.item1,
+.filter.item2,
+.filter.item3,
+.filter.item4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.filter.select {
+  border: 1px solid #fff;
+  width: 100px;
+}
+
+.item2 {}
+
+.item3 {}
+
+.item4 {}
+
+.table {}
+
+table {
+  margin-top: 190px;
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+
+.thead {}
+
+thead {
+  top: 165px;
+  position: fixed;
+  z-index: 2;
+  background: #000;
+  /* width: 100%; */
+}
+
+thead td:nth-child(1),
+thead td:nth-child(3),
+tbody td:nth-child(1),
+tbody td:nth-child(3) {
+  width: 150px;
+}
+
+thead td:nth-child(2),
+thead td:nth-child(4),
+thead td:nth-child(5),
+tbody td:nth-child(2),
+tbody td:nth-child(4),
+tbody td:nth-child(5) {
+  width: 100px;
+  padding: 10px;
+}
+
+thead td:nth-child(6),
+tbody td:nth-child(6) {
+  width: 300px;
+}
+
+thead td:nth-child(7),
+tbody td:nth-child(7) {
+  width: 200px;
+}
+
+
+tbody {
+  /* margin-top: 300px; */
+}
+
+header {
+  position: fixed;
+}
+
+.tbody {}
